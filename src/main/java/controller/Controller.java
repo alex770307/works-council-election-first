@@ -26,7 +26,7 @@ public class Controller implements IController {
         // Пример взаимодействия с пользователем
         while (true) {
             // Регистрация участника
-            System.out.println("Введите ID участника регистрации (или 'exit' для выхода):");
+            System.out.println("Введите ID участника для регистрации (или 'exit' для выхода):");
             String idInput = scanner.nextLine();
             if (idInput.equalsIgnoreCase("exit")) {
                 System.out.println("Зарегистрированные участники: " + ((Repository) repository).getParticipants());

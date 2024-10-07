@@ -21,5 +21,6 @@ public enum Candidate {
             }
         }
         return null;  // Возвращаем null, если кандидат не найден
+
     }
 }
